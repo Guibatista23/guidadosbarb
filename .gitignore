@@ -1,0 +1,13 @@
+# Ignorar arquivos de configuração da AWS e chaves
+.aws/
+credentials
+*.pem
+*.csv
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+.venv/
+.env
+
+# Ignorar pastas de resultados locais
+resultados/
